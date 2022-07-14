@@ -44,8 +44,7 @@
         let yItem = randomValueFromArray(insertY);
         let zItem = randomValueFromArray(insertZ);
 
-        newStory = newStory.replace(':inserta:' , xItem);
-        newStory = newStory.replace(':inserta:' , xItem);
+        newStory = newStory.replaceAll(':inserta:' , xItem);
         newStory = newStory.replace(':insertb:' , yItem);
         newStory = newStory.replace(':insertc:' , zItem);
 
